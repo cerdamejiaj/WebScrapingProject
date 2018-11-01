@@ -1,0 +1,3 @@
+python request.py
+pip install beautifulsoup4
+https://www.dataquest.io/blog/web-scraping-tutorial-python/
