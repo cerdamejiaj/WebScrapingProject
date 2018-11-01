@@ -26,4 +26,5 @@ weather = pd.DataFrame({
         "temp": temps,
         "desc":descs
     })
-print(weather)
+
+weather.to_csv('test.cvs')
