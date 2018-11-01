@@ -18,3 +18,6 @@ pip3 install requests bs4
 python3.6 -m pip install beautifulsoup4
 python3.6 -m pip install requests
 python3.6 -m pip install --upgrade pandas
+python3.6 -m pip install imgkit
+
+python3.6 weatherData.py 
