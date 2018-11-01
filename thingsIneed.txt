@@ -1,3 +1,10 @@
 python request.py
+pip install requests
 pip install beautifulsoup4
+pip install --upgrade pandas
+sudo apt install python-pip1
+pip install imgkit
+
+sudo apt-get install wkhtmltopdf
+
 https://www.dataquest.io/blog/web-scraping-tutorial-python/
