@@ -5,22 +5,26 @@ import pandas as pd
 
 
 """Gets page request and stores the content"""
-def getPageRequest(
+def getPageRequest():
 
     newYork = "https://forecast.weather.gov/MapClick.php?lat=40.7146&lon=-74.0071"
-
     meadville = "https://forecast.weather.gov/MapClick.php?lat=41.63648000000006&lon=-80.15142999999995"
-
-    city = input("Which city you which to know the weather for ? New York or Meadville ")
+    city = input("Which city you which to know the weather for ? New York or Meadville : ")
     if city == "new york":
         page = requests.get(newYork)
+        soup = BeautifulSoup(page.content, 'html.parser')
+
     elif city == "meadville":
         page = requests.get(meadville)
+        soup = BeautifulSoup(page.content, 'html.parser')
     else:
-        return "please invalid city  "
-    return page
-    soup = BeautifulSoup(page.content, 'html.parser')
+        return "please invalid city "
     return soup
+
+
+    # page = requests.get("https://forecast.weather.gov/MapClick.php?lat=40.7146&lon=-74.0071")
+    # soup = BeautifulSoup(page.content, 'html.parser')
+    # return soup
 
 
 """Finds the weather table using id/class tags."""
