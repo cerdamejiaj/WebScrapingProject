@@ -17,13 +17,8 @@ install:
   - python3.6 -m pip install imgkit
 
 script:
-  -python3 main.py
-  
-notifications:
-  email: never
-
-script:
   - mdl README.md
+  - python3 main.py
   on:
     branch: master
 
