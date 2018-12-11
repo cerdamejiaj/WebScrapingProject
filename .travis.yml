@@ -1,0 +1,30 @@
+
+#install mdl for checking Markdown in README.md
+language: python
+  python:
+    - "3.6"
+
+before_install:
+  - gem install mdl
+
+
+install:
+  - sudo apt-get install python3.6
+  - sudo apt-get install python3-pip
+  - python3.6 -m pip install beautifulsoup4
+  - python3.6 -m pip install requests
+  - python3.6 -m pip install --upgrade pandas
+  - python3.6 -m pip install imgkit
+
+script:
+  -python3 main.py
+notifications:
+  email: never
+
+script:
+  - mdl README.md
+  on:
+    branch: master
+
+after_success:
+  coveralls
