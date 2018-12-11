@@ -18,6 +18,7 @@ install:
 
 script:
   -python3 main.py
+  
 notifications:
   email: never
 
