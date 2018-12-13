@@ -1,7 +1,7 @@
 #integrates Travis so that code and documentation is held to the proper standards
 language: python
 python:
-  - "3.5"
+  - "3.6"
 
 cache:
   directories:
