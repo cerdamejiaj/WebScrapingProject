@@ -19,6 +19,7 @@ install:
   - pip install requests
   - pip install --upgrade pandas
   - pip install imgkit
+  - -m pip install matplotlib 
 
 before_script: cd src
 
