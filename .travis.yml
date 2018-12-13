@@ -24,6 +24,7 @@ install:
 script:
   - mdl README.md
   - main.py
+  - coverage run --source main -m py.main 
 
 
 after_success:
