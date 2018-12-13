@@ -16,9 +16,8 @@ def main():
      # weatherData.importData()
 
 if __name__ == '__main__':
-
-    main()
     matplotlib.use('Agg')
+    main()
     root = tkinter.Tk()
     with open("../build/weather.csv", newline = "") as file:
         reader = csv.reader(file)
