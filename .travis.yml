@@ -23,7 +23,7 @@ install:
 
 script:
   - mdl README.md
-  - python3 main.py
+  - main.py
 
 
 after_success:
