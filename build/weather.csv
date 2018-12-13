@@ -1,10 +1,10 @@
 ,Day,short description,temperature
-0,ThisAfternoon,Mostly Cloudy,High: 32 °F
-1,Tonight,Chance SnowShowers,Low: 24 °F
-2,Wednesday,Partly Sunny,High: 34 °F
-3,WednesdayNight,Chance Snowthen SnowLikely,Low: 27 °F
-4,Thursday,Chance Snowthen MostlyCloudy,High: 38 °F
-5,ThursdayNight,Mostly Cloudy,Low: 31 °F
-6,Friday,Mostly Cloudythen ChanceShowers,High: 42 °F
-7,FridayNight,ChanceShowers,Low: 36 °F
-8,Saturday,ChanceShowers,High: 44 °F
+0,ThisAfternoon,Chance Rain,High: 40 °F
+1,Tonight,Slight ChanceLight Rainthen MostlyCloudy,Low: 39 °F
+2,Friday,Mostly Cloudythen SlightChance Rain,High: 50 °F
+3,FridayNight,Rain Likely,Low: 47 °F
+4,Saturday,Rain Likely,High: 50 °F
+5,SaturdayNight,Chance Rain,Low: 41 °F
+6,Sunday,Chance Rain,High: 45 °F
+7,SundayNight,Chance Rain,Low: 38 °F
+8,Monday,Partly Sunny,High: 46 °F
