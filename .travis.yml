@@ -23,8 +23,7 @@ install:
 
 script:
   - mdl README.md
-  - main.py
-  - coverage run --source main -m py.main 
+  - python main.py
 
 
 after_success:
