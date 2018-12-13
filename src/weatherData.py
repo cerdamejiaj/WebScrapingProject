@@ -53,12 +53,7 @@ def getShortDescription(seven_day):
 def getTemp(seven_day):
     temps = [t.get_text() for t in seven_day.select(".tombstone-container .temp")]
     return temps
-
-"""stores each day discription"""
-# def getDescription(seven_day):
-#     descs = [d["title"] for d in seven_day.select(".tombstone-container img")]
-#     return descs
-
+    
 """ Creates table"""
 def createTable(periods, short_descs, temps):
     weather = pd.DataFrame({
