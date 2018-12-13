@@ -23,7 +23,7 @@ if __name__ == '__main__':
         for col in reader:
             c = 2
             for row in col:
-                label = tkinter.Label(root, width = 25, height = 3, text = row, relief = tkinter.RIDGE)
+                label = tkinter.Label(root, width = 40, height = 3, text = row, relief = tkinter.RIDGE)
                 label.grid(row = r, column = c)
                 c += 1
             r += 1
