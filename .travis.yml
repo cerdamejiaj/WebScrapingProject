@@ -20,10 +20,11 @@ install:
   - pip install --upgrade pandas
   - pip install imgkit
 
+before_script: cd src
 
 script:
   - mdl README.md
   - python main.py
-    
+
 after_success:
   coveralls
