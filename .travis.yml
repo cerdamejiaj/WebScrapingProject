@@ -24,7 +24,7 @@ before_script: cd src
 
 script:
   - mdl README.md
-  - python main.py
+  - python main.py < testingtext.txt
 
 after_success:
   coveralls
