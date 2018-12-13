@@ -24,6 +24,8 @@ install:
 script:
   - mdl README.md
   - python main.py
+  on:
+    branch: master
 
 
 after_success:
