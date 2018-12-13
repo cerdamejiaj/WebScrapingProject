@@ -7,7 +7,6 @@ language: python
 before_install:
   - gem install mdl
 
-
 install:
   - sudo apt-get install python3.6
   - sudo apt-get install python3-pip
