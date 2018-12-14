@@ -12,8 +12,7 @@ than other programming languages. The next step is to branch out, and combine
 machine learning with web scraping. My idea is to create a stock market bot that
 uses machine learning and stock market data to invest money.
 
-
-##### How to build and run web scraper & Software tools used
+## How to build and run web scraper & Software tools used
 
 In order to build the web scraper Python 3.0 or higher is recommended. Some
 of the libraries only work with python 3.0. The two main libraries used to get
@@ -22,7 +21,7 @@ the information from the National Weather Service were `requests` and
 National weatherService web server which allow us to get the `HTML` content. I
 then use `beautifulsoup4`to parse the `HTML` content and extract the text. In
 order to find out what data I wanted to extract, I inspected the sources code to
-see in which class or id tags the weather dat was. I used the`find and find_all`
+see in which class or id tags the weather dat was. I used the `find and find_all`
  methods from`beautifulsoup4` library to get the `HTML` content and then used
 `get_text` method to extract the text. To store the data I used `pandas` a
 Pythonlibrary that makes it easy to analysis data and create data frames. I
@@ -35,13 +34,12 @@ order to run the program you will need the following libraries installed:
 .If you have multiple versions of python installed, you want to specify
 version 3: `python3 main.py`.
 
-
-##### Tangible results
+### Tangible results
 
 ![CSV](/build/csv.png)
 ![GUI](/build/GUI.png)
 
-##### How to test the web scraper
+### How to test the web scraper
 
 To test the weather web scraper you can try different cities to see how it
 handles different weathers. First you will need to go to
