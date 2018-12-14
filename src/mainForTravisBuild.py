@@ -1,7 +1,6 @@
 import weatherDataForTravisBuild
 import tkinter
 import csv
-import matplotlib
 
 
 
@@ -11,12 +10,11 @@ def main():
      periods = weatherDataForTravisBuild.weekdays(seven_day)
      short_descs = weatherDataForTravisBuild.getShortDescription(seven_day)
      temps = weatherDataForTravisBuild.getTemp(seven_day)
-     # descs = weatherData.getDescription(seven_day)
      weatherDataForTravisBuild.createTable(periods, short_descs, temps)
-     # weatherData.importData()
+     
 
 if __name__ == '__main__':
-    matplotlib.use('Agg')
+
     main()
     # root = tkinter.Tk()
     # with open("../build/weather.csv", newline = "") as file:
