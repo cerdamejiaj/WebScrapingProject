@@ -1,5 +1,5 @@
- #  WebScrapinProject
-<p>
+
+# Weather Web Scraper
 
 This is a web scrapper program that uses a variety of python libraries to scrap
 and store weather data from the National Weather Service. The Program scraps
@@ -11,10 +11,10 @@ with python and see how simpler it was to web scrap data using python libraries
 than other programming languages. The next step is to branch out, and combine
 machine learning with web scraping. My idea is to create a stock market bot that
 uses machine learning and stock market data to invest money.
-</p>
 
-<strong> How to build and run web scraper & Software tools used </strong>
-<p>
+
+##### How to build and run web scraper & Software tools used
+
 In order to build the web scraper Python 3.0 or higher is recommended. Some
 of the libraries only work with python 3.0. The two main libraries used to get
 the information from the National Weather Service were `requests` and
@@ -30,20 +30,18 @@ used the library to create a data frame and then save it in csv file. Finally
 I used `tkinter` I library to make simple GUI windows to display the weather
 data. The program into two separate classes, `WeatherData.py` and `main.py`. In
 order to run the program you will need the following libraries installed:
-`pip install --upgrade pip`, ` pip install beautifulsoup4`, `pip install requests`
-,`pip install --upgrade pandas`, and `pip install imgkit`. If you have multiple
-versions of python installed, you want to specify version 3: `python3 main.py`.
-</p>
+`pip install --upgrade pip`, ` pip install beautifulsoup4`,
+`pip install requests`, `pip install --upgrade pandas`, and `pip install imgkit`
+.If you have multiple versions of python installed, you want to specify
+version 3: `python3 main.py`.
 
-<strong> Tangible results </strong>
+
+##### Tangible results
 
 ![CSV](/build/csv.png)
-
 ![GUI](/build/GUI.png)
 
-<strong> How to test the web scraper <strong>
-
-<p>
+##### How to test the web scraper
 
 To test the weather web scraper you can try different cities to see how it
 handles different weathers. First you will need to go to
@@ -55,6 +53,3 @@ One downside to the web scrapper is that when there is weather storms or alerts.
 The web scraper can't handle the extra text around the tags or id so you will
 get an error and the program will not run. If you come across this issue, please
 try a different place.
-
-
-</p>
