@@ -21,10 +21,12 @@ install:
   - pip install imgkit
 
 
+script:
+  - mdl README.md
+
 before_script: cd src
 
 script:
-  - mdl README.md
   - python mainForTravisBuild.py
 
 after_success:
