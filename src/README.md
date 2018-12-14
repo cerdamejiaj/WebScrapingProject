@@ -29,7 +29,7 @@ used the library to create a data frame and then save it in csv file. Finally
 I used `tkinter` I library to make simple GUI windows to display the weather
 data. The program into two separate classes, `WeatherData.py` and `main.py`. In
 order to run the program you will need the following libraries installed:
-`pip install --upgrade pip`, ` pip install beautifulsoup4`,
+`pip install --upgrade pip`, `pip install beautifulsoup4`,
 `pip install requests`, `pip install --upgrade pandas`, and `pip install imgkit`
 .If you have multiple versions of python installed, you want to specify
 version 3: `python3 main.py`.
